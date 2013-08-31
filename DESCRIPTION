@@ -1,0 +1,17 @@
+Package: packageR
+Type: Package
+Title: Import R scripts as a package
+Version: 0.0.1
+Imports:
+    namespace (>= 0.9.1)
+Suggests:
+    testthat (>= 0.7.1)
+Date: 2013-08-31
+Author: Takeshi Arabiki
+Maintainer: Takeshi Arabiki <takeshi.arabiki@gmail.com>
+Description: This package provides a mechanism to import R scripts as a
+    package, in other words, with namespace.
+License: MIT
+Collate:
+    'export.R'
+    'import.R'
